@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1019975417559",
+    "firebase_url": "https://medspace-8095e.firebaseio.com",
+    "project_id": "medspace-8095e",
+    "storage_bucket": "medspace-8095e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019975417559:android:85aca09488cff602",
+        "android_client_info": {
+          "package_name": "com.umkc.medspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019975417559-k4vhd6md1ba9jlq23qmaond76ufa39nn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.umkc.medspace",
+            "certificate_hash": "f62bda214e160d32fd45548d0f878780cc576d5b"
+          }
+        },
+        {
+          "client_id": "1019975417559-61g67svgftq7jdquplet9i9c7gieeq4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Jm1xp5ueG6VnXZS8tdqmoTD9AdXyanE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019975417559-61g67svgftq7jdquplet9i9c7gieeq4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

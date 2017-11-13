@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvHospitals"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/ivHospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:id="@+id/tvHospitalname"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_toEndOf="@+id/ivHospital"
+            android:ellipsize="end"
+            android:padding="4dp"
+            android:text="Hospital name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/static_text_large" />
+
+        <TextView
+            android:id="@+id/tvaddress"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHospitalname"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="6dp"
+            android:layout_toEndOf="@+id/ivHospital"
+            android:ellipsize="end"
+            android:padding="2dp"
+            android:text="Hospital address"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvaddress"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="6dp"
+            android:layout_toEndOf="@+id/ivHospital"
+            android:text="rating"
+            android:textColor="@color/gray"
+            android:visibility="gone" />
+
+        <RatingBar
+            android:id="@+id/rBRating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvaddress"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="3dp"
+            android:layout_toEndOf="@+id/ivHospital"
+            android:numStars="5"
+            android:progressTint="@color/gray"
+            android:stepSize="1.0" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

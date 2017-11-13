@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp">
+
+            <EditText
+                android:id="@+id/etDesignation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="Speciality"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/etHospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etDesignation"
+                android:background="@android:color/transparent"
+                android:editable="false"
+                android:hint="Hospital name"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/etAvailabiltiy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/silver"
+                android:padding="16dp"
+                android:text="Availabiltiy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/static_text_normal" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/mon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:maxLines="1"
+                                android:text="MON"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/static_text_normal" />
+
+                            <EditText
+                                android:id="@+id/monstart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 am" />
+
+                            <EditText
+                                android:id="@+id/monend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 pm" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:text="TUE"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/static_text_normal" />
+
+                            <EditText
+                                android:id="@+id/tuestart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 am" />
+
+                            <EditText
+                                android:id="@+id/tueend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:singleLine="true"
+                                android:text="11:00 pm" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/wed"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="WED"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/static_text_normal" />
+
+                            <EditText
+                                android:id="@+id/wedstart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 am" />
+
+                            <EditText
+                                android:id="@+id/wedend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:singleLine="true"
+                                android:text="11:00 pm" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/thu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="THU"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/static_text_normal" />
+
+                            <EditText
+                                android:id="@+id/thustart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 am" />
+
+                            <EditText
+                                android:id="@+id/thuend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:singleLine="true"
+                                android:text="11:00 pm" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/fri"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="FRI"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/static_text_normal" />
+
+                            <EditText
+                                android:id="@+id/fristart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 am" />
+
+                            <EditText
+                                android:id="@+id/friend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:singleLine="true"
+                                android:text="11:00 pm" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/sat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="SAT"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/static_text_normal" />
+
+                            <EditText
+                                android:id="@+id/satstart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 am" />
+
+                            <EditText
+                                android:id="@+id/satend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:singleLine="true"
+                                android:text="11:00 pm" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/sun"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="SUN"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/static_text_normal" />
+
+                            <EditText
+                                android:id="@+id/sunstart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="11:00 am" />
+
+                            <EditText
+                                android:id="@+id/sunend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:imeOptions="actionNext"
+                                android:singleLine="true"
+                                android:text="11:00 pm" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/dark_blue"
+            android:text="UPLOAD SLOTS"
+            android:textColor="@color/white"
+            android:textSize="@dimen/static_text_large" />
+
+    </RelativeLayout>
+
+</ScrollView>
