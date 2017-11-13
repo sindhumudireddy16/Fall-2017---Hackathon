@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvHospitals"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/ivDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:src="@drawable/doctors" />
+
+        <TextView
+            android:id="@+id/tvDoctorName"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_toEndOf="@+id/ivDoctor"
+            android:maxLines="1"
+            android:maxLength="50"
+            android:padding="4dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Hospital name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/static_text_large" />
+
+        <TextView
+            android:id="@+id/tvSpecialist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDoctorName"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="6dp"
+            android:layout_toEndOf="@+id/ivDoctor"
+            android:padding="2dp"
+            android:singleLine="true"
+            android:text="Specialist"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/tvHospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSpecialist"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="6dp"
+            android:layout_toEndOf="@+id/ivDoctor"
+            android:text="Hospital name"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/tvArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHospital"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="6dp"
+            android:layout_toEndOf="@+id/ivDoctor"
+            android:singleLine="true"
+            android:text="Area"
+            android:textColor="@color/gray" />
+
+        <ImageView
+            android:id="@+id/ivChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="55dp"
+            android:padding="12dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_chat" />
+
+        <ImageView
+            android:id="@+id/ivCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:src="@drawable/call" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

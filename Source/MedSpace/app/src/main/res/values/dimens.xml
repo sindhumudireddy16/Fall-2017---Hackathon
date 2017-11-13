@@ -1,0 +1,52 @@
+<!--
+  ~ Copyright (C) 2017 Bharathi Tech Services Pvt. Ltd.
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="static_text_normal">14dp</dimen>
+    <dimen name="static_text_large">16dp</dimen>
+    <dimen name="static_text_small">12dp</dimen>
+    <dimen name="static_text_extra_small">9dp</dimen>
+    <dimen name="header_text">20dp</dimen>
+    <dimen name="sub_header_text">18dp</dimen>
+    <dimen name="static_text_button">18dp</dimen>
+
+    <dimen name="rounded_tv_width">47dp</dimen>
+    <dimen name="et_width">0dp</dimen>
+    <dimen name="rounded_tv_width_blue">1dp</dimen>
+
+    <dimen name="list_item_min_height">48dp</dimen>
+    <dimen name="list_item_max_height">96dp</dimen>
+    <dimen name="list_item_set_height">64dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">16dp</dimen>
+
+    <!-- The default letter tile text size -->
+    <dimen name="tile_letter_font_size">33sp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">64dp</dimen>
+
+    <dimen name="intro_margin">70dp</dimen>
+    <dimen name="intro_tittle_text_size">22sp</dimen>
+    <dimen name="intro_message_text_size">16sp</dimen>
+    <dimen name="intro_top_margin">20dp</dimen>
+    <dimen name="vertical_intro_image_margin">60dp</dimen>
+    <dimen name="landscape_vertical_intro_margin">50dp</dimen>
+    <dimen name="landscape_vertical_intro_margin_left">30dp</dimen>
+    <bool name="isTablet">false</bool>
+
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+
+</resources>
